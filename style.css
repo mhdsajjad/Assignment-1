@@ -1,0 +1,22 @@
+.headline{
+    font-size: 60px;
+}
+.orenge-colore{
+    color: orange;
+}
+.flexble-container{
+    display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.half-width-text{
+   padding-top: 100px;
+   width: 100%;
+   text-align: justify;
+}
+.half-width-image img{
+    width: 40%;
+    padding-left: 400px;
+    width: 50%;
+    
+}
