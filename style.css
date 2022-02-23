@@ -1,5 +1,6 @@
 .headline{
     font-size: 60px;
+    border-left: 4px solid tomato;
 }
 .orenge-colore{
     color: orange;
@@ -8,6 +9,7 @@
     display: flex;
     padding-left: 156px;
     padding-right: 156px;
+    margin-bottom: 300px;
 }
 .half-width-text{
    padding-top: 100px;
@@ -17,6 +19,22 @@
 .half-width-image img{
     width: 40%;
     padding-left: 400px;
-    width: 50%;
-    
+    width: 50%; 
+}
+.button{
+    text-decoration: none;
+    padding: 10px;
+    background-image: linear-gradient(tomato,rgb(230, 153, 66));
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+/* Global Community section */
+.headline-globle{
+    font-size: 30px;
+}
+.half-width-text-globle{
+    padding-top: 50px;
+    width: 100%;
+    text-align: justify;
 }
