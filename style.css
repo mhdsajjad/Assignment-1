@@ -1,23 +1,28 @@
+body{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
 .headline{
     font-size: 60px;
     border-left: 4px solid tomato;
 }
 .orenge-colore{
     color: orange;
+    
 }
 .flexble-container{
     display: flex;
     padding-left: 156px;
-    padding-right: 156px;
-    margin-bottom: 300px;
+    padding-right: 250px;
+    margin-bottom: 250px;
 }
 .half-width-text{
    padding-top: 100px;
    width: 100%;
    text-align: justify;
+   font-weight: 700;
 }
 .half-width-image img{
-    width: 40%;
     padding-left: 400px;
     width: 50%; 
 }
@@ -29,6 +34,58 @@
     font-weight: 700;
     color: white;
 }
+
+/* My Mission in 2022 section */
+.flexble-three-container{
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-bottom: 150px;
+}
+.flexble-three-division{
+    display: flex;
+    
+}
+#three-container{
+    font-size: 40px;
+    text-align: center;
+}
+.my-misson img{
+    width:40% ;
+}
+.my-misson{
+    padding: 20px;
+    margin: 25px;
+    border-radius: 25px;
+}
+.color-1{
+background-color: #4f9da631;
+}
+.color-2{
+background-color: #ff595934;
+}
+.color-3{
+background-color: #fff4d6d0;
+}
+
+/* Develop Without Limits section */
+.half-width-image-without-limits img{
+    width: 50%;
+}
+.develop-without-limits{
+    background-image: url(./images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    
+
+}
+.footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+}
+
+
+
 /* Global Community section */
 .headline-globle{
     font-size: 30px;
@@ -37,4 +94,7 @@
     padding-top: 50px;
     width: 100%;
     text-align: justify;
+}
+.red{
+    color: red;
 }
